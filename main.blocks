@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="1Rhip_pfO`.T@%j#$k.j">Player</variable><variable type="KIND_SpriteKind" id="3)][f^O]clzsf/;IuP3R">Projectile</variable><variable type="KIND_SpriteKind" id="Pk(BX8Xe1Y0$UW:G%m^{">Food</variable><variable type="KIND_SpriteKind" id="iZ%5zM4!3s6c#NNLt5]}">Enemy</variable><variable id="`by48J61Z~o=~_oeRKdJ">mySprite</variable><variable id="Sj$*C1F}~,+n_.y_]Tv+">mysprite2</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="`by48J61Z~o=~_oeRKdJ">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . 1 . . . . 
+. . . . . . . . . 1 1 . 1 1 . . 
+. . . . 1 1 . . 1 . . . . . 1 . 
+. . . 1 1 . 1 1 . 1 1 . . . . 1 
+. . . 1 1 1 . 1 1 1 . . . . . 1 
+. . . 1 1 1 1 1 . . 1 . . . . 1 
+. . 1 . 1 . . 1 1 1 1 1 . . . 1 
+. . . 1 . . . . 1 . 1 1 . . . 1 
+. . . 1 1 . . . . 1 1 1 . . . 1 
+. . . 1 . 1 1 1 1 1 . . . . 1 1 
+. . . 1 . . . . . . . . 1 1 . . 
+. . . . 1 1 1 1 1 1 1 1 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="`by48J61Z~o=~_oeRKdJ">mySprite</field></block></value><next><block type="spritesay"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="`by48J61Z~o=~_oeRKdJ">mySprite</field></block></value><value name="text"><shadow type="text"><field name="TEXT">:)</field></shadow></value><next><block type="variables_set"><field name="VAR" id="Sj$*C1F}~,+n_.y_]Tv+">mysprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . 5 . . . . 
+. . . . . . . . . 5 5 . 5 5 . . 
+. . . . 5 5 . . 5 . . . . . 5 . 
+. . . 5 5 . 5 5 . 5 5 . . . . 5 
+. . . 5 5 5 . 5 5 5 . . . . . 5 
+. . . 5 5 5 5 5 . . 5 . . . . 5 
+. . 5 . 5 . . 5 5 5 5 5 . . . 5 
+. . . 5 . . . . 5 5 5 5 . . . 5 
+. . . 5 5 . . . . 5 5 5 . . . 5 
+. . . 5 . 5 5 5 5 5 . . . . 5 5 
+. . . 5 . . . . . . . . 5 5 . . 
+. . . . 5 5 5 5 5 5 5 5 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="`by48J61Z~o=~_oeRKdJ">mySprite</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">13</field></shadow></value><value name="y"><shadow type="positionPicker"><field name="index">0</field></shadow></value><next><block type="game_control_sprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="Sj$*C1F}~,+n_.y_]Tv+">mysprite2</field></block></value><next><block type="spritesay"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="Sj$*C1F}~,+n_.y_]Tv+">mysprite2</field></block></value><value name="text"><shadow type="text"><field name="TEXT">wewfewf</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" disabled="true" x="51" y="153"/></xml>
